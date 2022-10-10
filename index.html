@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="My Travel App">
+
+    <!-- Bootstrap Required Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Book Store</title>
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>   
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet"  href="styles.css">
+</head> 
+
+<body>
+
+    <!-- Contains the heading, navigation and banner image -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <div class="container">
+
+                <!-- Your Travel App Name or Logo -->
+                <a href="#" class="navbar-brand text-light">
+                    Book Store
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> 
+
+                <!-- Navbar -->
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item text-light nav-link" href="#" target="blank">Cart</a>
+                        <div class="dropdown">
+                            <a class="nav-item text-light nav-link dropdown-toggle" data-toggle="dropdown" id="bookDropdown"
+                                aria-haspopup="true" aria-expanded="false" href="#">Categories</a>
+                            <div class="dropdown-menu" aria-labelledby="bookDropdown">
+                                <a class="dropdown-item" href="#" target="blank">Fiction</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" target="blank">Fantasy</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" target="blank">Horror</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" target="blank">History</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+
+        <!--Jumbotron for Hero Section -->
+        <div class="jumbotron jumbotron-fluid card card-image">
+            <div class="row justify-content-center mt-5 pb-4">
+                <div class="col-md-8">
+                    <div class="jumbotron shadow py-4 mb-5 ">
+                        <h1 class="text-center">Search</h1>
+                        <form class="form-inline d-flex flex-nowrap">
+                            <input class="input" type="text" >
+                            <button type="submit" class="flex-shrink-1 btn btn-primary my-1">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section>
+            <div class="new">
+                <h1 class="h1">Best Seller</h1>
+            </div>
+            <div class="card-deck">
+                <article class="card">
+                    <img class="card-img-top"
+                        src="images/Fiction/Fiction 4.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">Harry Potter and the Philosopher's Stone</h3>
+                        <h4>Price : $6</h4>
+                        <p class="card-text">Author: J K Rowling </p>
+                        </div>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    
+                    <div class="card-footer"><a href="details.html" target="blank" class="btn btn-primary">View Details</a></div>
+                </article>
+
+                <article class="card">
+                    <img class="card-img-top"
+                        src="images/History/history2.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">The Diary of a Young Girl</h3>
+                        <h4>Price: $9</h4>
+                        <p class="card-text"> Author : Anne Frank</p> 
+                    </div>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <div class="card-footer"><a href="details.html" target="blank" class="btn btn-primary">View Details</a></div>
+                </article>
+
+                <article class="card">
+                    <img class="card-img-top"
+                        src="images/Fantasy/fantasy2.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">The Hobbit</h3>
+                        <h4>Price: $8 </h4>
+                        <p class="card-text">Author : J R R Tolkien</p>
+                    </div>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <div class="card-footer"><a href="details.html" target="blank" class="btn btn-primary">View Details</a></div>
+                </article>
+                <article class="card">
+                    <img class="card-img-top"
+                        src="images/Horror/horror3.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">Frankenstein</h3>
+                        <h4>Price : $7</h4>
+                        <p class="card-text"> Author: Mary Shelley</p>
+                    </div>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <div class="card-footer"><a href="details.html" target="blank" class="btn btn-primary">View Details</a></div>
+                </article>
+                <article class="card">
+                    <img class="card-img-top"
+                        src="images/Fiction/fiction 2.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">Pride and Prejudice</h3>
+                        <h4>Price : $6</h4>
+                        <p class="card-text">Author: Jane Austen</p>
+                    </div>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <div class="card-footer"><a href="details.html" target="blank" class="btn btn-primary">View Details</a></div>
+                    
+                </div>
+                    
+                </article>
+            </div> 
+        </section>
+
+        <!-- Contact Section -->
+
+            <section class="contact" style="height: 55%;">
+                <h2 class="h2">Contact Us</h2>
+                <form class="form" method="post">
+                    <div class="form-group">
+                        <label for="name">Enter your name: </label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Enter your email: </label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                        <input class="sub" type="submit" value="Send Message!">
+                </form>
+            </section>
+    </main>
+
+    <!-- Footer of the website -->
+    <footer class="footer">
+        <div class="text-center py-5 bg-secondary">
+            <span class="text-light">Copyright &copy; 2019</span>
+        </div>
+    </footer> 
+</body>
+
+</html>

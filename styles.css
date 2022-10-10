@@ -1,0 +1,55 @@
+@media(max-width: 700px) {
+  .jumbotron {
+    width: 700px;
+  }
+}
+@media(max-width: 700px) {
+  .card-deck {
+    width: 700px;
+  }
+}
+
+.jumbotron
+{
+background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+}
+.h1{
+text-align: center;
+padding-bottom: 50px;
+}
+
+.contact
+{
+  background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+}
+.input
+{
+font: sans-serif;
+padding-right: 50%;
+padding-left: 50px;
+resize: both;
+overflow: auto;
+}
+.h2
+{
+padding-top: 50px;
+padding-bottom: 50px;
+text-align: center;
+}
+.form
+{
+text-align: center;
+padding-bottom: 10px;
+}        
+
+
+.footer
+{
+padding-top: 5%;
+background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+}
+
+
+
+
+
